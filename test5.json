@@ -1,0 +1,129 @@
+{
+    "test_cases5": [
+        {
+            "input": [[3, 1, 5, 2, 7, 8], 6],
+            "expected": [1, 5]
+        },
+        {
+            "input": [[1, 2, 3, 4, 5], 8],
+            "expected": [3, 5]
+        },
+        {
+            "input": [[10, 15, 3, 7], 17],
+            "expected": [7, 10]
+        },
+        {
+            "input": [[1, 2, 3, 4, 5], 10],
+            "expected": [2, 3, 5]
+        },
+        {
+            "input": [[2, 4, 6, 8], 12],
+            "expected": [4, 8]
+        },
+        {
+            "input": [[5, 10, 15, 27], 25],
+            "expected": [10, 15]
+        }
+    ],
+    "test_cases6": [
+    {
+      "keys": [10, 12, 20],
+      "freq": [34, 8, 50],
+      "expected": 142
+    },
+    {
+      "keys": [10],
+      "freq": [10],
+      "expected": 10
+    },
+    {
+      "keys": [10, 20],
+      "freq": [10, 20],
+      "expected": 40
+    },
+    {
+      "keys": [10, 12, 20, 35],
+      "freq": [3, 6, 4, 2],
+      "expected": 26
+    },
+    {
+      "keys": [5, 10, 15, 20, 25],
+      "freq": [15, 10, 5, 10, 20],
+      "expected": 130
+    }
+  ],
+  "test_cases7": [
+    {
+      "goods": [[10, 34], [12, 8], [20, 50]],
+      "pound": 30,
+      "expected": 84
+    },
+    {
+      "goods": [[10, 10]],
+      "pound": 10,
+      "expected": 10
+    },
+    {
+      "goods": [[10, 10], [20, 20]],
+      "pound": 30,
+      "expected": 30
+    },
+    {
+      "goods": [[10, 3], [12, 6], [20, 4], [35, 2]],
+      "pound": 35,
+      "expected": 11.6
+    },
+    {
+      "goods": [[5, 15], [10, 10], [15, 5], [20, 10], [25, 20]],
+      "pound": 40,
+      "expected": 45
+    },
+    {
+      "goods": [[10, 60], [20, 100], [30, 120]],
+      "pound": 50,
+      "expected": 240
+    }
+  ],
+  "test_cases8": [
+    {
+      "keys": [1,2,5],
+      "amount": 11,
+      "answer": 3
+    },
+    {
+      "keys": [2],
+      "amount": 3,
+      "answer": -1
+    },
+    {
+      "keys": [1],
+      "amount": 0,
+      "answer": 0
+    },
+    {
+      "keys": [1,2,5],
+      "amount": 11,
+      "answer": 3
+    },
+    {
+      "keys": [1,2,5],
+      "amount": 11,
+      "answer": 3
+    },
+    {
+      "keys": [1,2,5],
+      "amount": 11,
+      "answer": 3
+    },
+    {
+      "keys": [1,2,5],
+      "amount": 11,
+      "answer": 3
+    },
+    {
+      "keys": [1,2,5],
+      "amount": 11,
+      "answer": 3
+    }
+  ]
+}
